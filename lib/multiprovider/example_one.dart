@@ -14,6 +14,7 @@ class _ExampleOneState extends State<ExampleOne> {
   Widget build(BuildContext context) {
     final provider = Provider.of<ExampleOneProvider>(context, listen: false);
 
+
     return Scaffold(
       appBar: AppBar(
         title: Text("Multiprovider"),
